@@ -73,5 +73,6 @@ end
 
 after_configuration do
   sprockets.append_path File.join(root, 'bower_components/jquery/dist')
+  sprockets.append_path File.join(root, 'bower_components/bootstrap/dist')
   sprockets.append_path File.join(root, 'bower_components')
 end
